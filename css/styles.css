@@ -18,3 +18,7 @@ main p {
     color: black;
     font-weight: 700;
 }
+
+main p span {
+    color:red;
+}
