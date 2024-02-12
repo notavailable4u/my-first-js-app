@@ -1,17 +1,18 @@
 const pokemonList = [
     {
         name: 'Bulbasaur',
-        height: 2.04,
+        height: 2,
         types: ['grass', 'poison']
     },
     {
         name: 'Charmeleon',
-        height: 3.07,
-        types: [fire]
+        height: 3,
+        types: ['fire']
     },
     {
-        name: Ivysaur,
-        height: 3.03,
-        types: [grass, poison]
+        name: 'Ivysaur',
+        height: 3,
+        types: ['grass', 'poison']
     }
 ];
+
