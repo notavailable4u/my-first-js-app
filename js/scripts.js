@@ -7,7 +7,7 @@ const pokemonList = [
     {
         name: 'Charmeleon',
         height: 3.07,
-        types: [fire],
+        types: [fire]
     },
     {
         name: Ivysaur,
