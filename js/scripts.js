@@ -16,3 +16,6 @@ const pokemonList = [
     }
 ];
 
+for (let i = 0; i < pokemonList.length; i++) {
+    document.write(`<p>${pokemonList[i].name} (Height: ${pokemonList[i].height} feet)</p>`)
+}
