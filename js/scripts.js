@@ -16,7 +16,7 @@
       addListItem: addListItem
     };
   })();
- */ /*** END IIFE ****/ 
+ */ /*** END IIFE ****/
 
 let pokemonList = [
     {
@@ -50,7 +50,7 @@ function addListItem(pokemon) {
     button.classList.add('ulButton');
     listItem.appendChild(button);
     unorderedList.appendChild(listItem);
-    button.addEventListener('click', () => {ShowDetails(pokemon)});
+    button.addEventListener('click', () => { ShowDetails(pokemon) });
 };
 
 function ShowDetails(pokemon) {
