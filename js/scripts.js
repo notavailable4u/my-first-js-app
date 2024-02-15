@@ -1,4 +1,5 @@
-let pokemonRepository = (function () {
+/**** IIFE ****/
+/* let pokemonRepository = (function () {
     let pokemonList = [];
   
     function add(pokemon) {
@@ -8,13 +9,15 @@ let pokemonRepository = (function () {
     function getAll() {
       return pokemonList;
     }
-  
+
     return {
       add: add,
-      getAll: getAll
+      getAll: getAll,
+      addListItem: addListItem
     };
   })();
-  
+ */ /*** END IIFE ****/ 
+
 let pokemonList = [
     {
         name: 'Bulbasaur',
@@ -38,12 +41,21 @@ let pokemonList = [
     }
 ];
 
-function checkHeight(pokemon) {
-    if (pokemon.height >= 5) {
-        document.write(`<p>${pokemon.name} (Height: ${pokemon.height} feet) - <span>Wow, that's big!</span></p>`)
-    } else {
-        document.write(`<p>${pokemon.name} (Height: ${pokemon.height} feet)`)
-    }
-}
 
-pokemonList.forEach(checkHeight);
+function addListItem(pokemon) {
+    let unorderedList = document.querySelector('.pokemon-list');
+    let listItem = document.createElement('li');
+    let button = document.createElement('button');
+    button.innerText = pokemon.name;
+    button.classList.add('ulButton');
+    listItem.appendChild(button);
+    unorderedList.appendChild(listItem);
+    button.addEventListener('click', () => {ShowDetails(pokemon)});
+};
+
+function ShowDetails(pokemon) {
+    console.log(pokemon)
+};
+
+pokemonList.forEach(addListItem);
+
