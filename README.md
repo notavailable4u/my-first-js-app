@@ -6,7 +6,8 @@ This is the first JavaScript app that I wrote. It was created as part of the cur
 
 ## Projective Objective
 
-The objective of the project, as stated in Project Brief provided by Career Foundry, was: >To build a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.
+The objective of the project, as stated in Project Brief provided by Career Foundry, was: 
+>To build a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.
 
 ## Project Dependencies 
 
