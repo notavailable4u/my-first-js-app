@@ -4,6 +4,10 @@
 
 This is the first JavaScript app that I wrote. It was created as part of the curriculum for the Full Stack Web Development Program at [Career Foundry](https://careerfoundry.com/en/courses/become-a-web-developer/). This project, including this README document, is still a work-in-progress.
 
+### Skills Demonstrated:
++ Create basic UI pattern using Javascript
++ Create Modal using HTML, CSS, and Javascript
+
 ## Projective Objective
 
 The objective of the project, as stated in Project Brief provided by Career Foundry, was: 
