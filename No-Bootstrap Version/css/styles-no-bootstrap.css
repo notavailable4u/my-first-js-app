@@ -8,9 +8,41 @@
     --font-weight-headings: 700;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+/************* Default Text Elements ********/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: var(--font-weight-headings);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: var(--font-weight-headings);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: var(--font-weight-headings);
+}
+
+/******** End Default Text Elements ********/
 
 /******** Main Section ********/
-/* main {
+main {
     max-width: 770px;
     margin: 0 auto;
     flex: 1;
@@ -19,7 +51,7 @@
 main h2{
   text-align: center;
 }
- *//******** End Main Section ********/
+/******** End Main Section ********/
 
 
 /******** Pokemon List and Buttons *******/
