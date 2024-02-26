@@ -51,6 +51,8 @@ main {
 main h2{
   text-align: center;
 }
+
+p {text-align: center;}
 /******** End Main Section ********/
 
 
@@ -59,6 +61,9 @@ ul.pokemon-list {
     list-style-type: none;
     display: table;
     margin: 0 auto;
+}
+ul li {
+  display: inline;
 }
 
 .ulButton {
@@ -122,17 +127,23 @@ ul.pokemon-list {
   /*-webkit-appearance: none;*/
   border: 0;
   background: none;
-  color: #777;
+  color: #fff;
   text-decoration: underline;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 .modal h1 {
   margin-top: 0;
+  text-align: center;
+  background-color: #008CBA;
+  color: #fff;
 }
 
 .modal p {
   margin-bottom: 0;
   font-weight: 700;
+  text-align: center;
 }
 
 
