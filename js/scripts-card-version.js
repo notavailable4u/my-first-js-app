@@ -10,7 +10,7 @@ let pokemonRepository = (function () {
         return pokemonList;
     }
 
-    // This function creates li & button with class and model attributes
+    // This function creates Card & button with class and model attributes
     function addListItem(pokemon) {
         let container = document.querySelector("#special")
         let col = document.createElement("div");
