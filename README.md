@@ -1,11 +1,18 @@
 # Project Name: Pokemon Index (My First JS App)
 
 ## Project Description
-This is the first JavaScript app that I wrote. It was created as part of the curriculum for the Full Stack Web Development Program at [Career Foundry](https://careerfoundry.com/en/courses/become-a-web-developer/). This project, including this README document, is still a work-in-progress.
+This is the first JavaScript app that I wrote. It was created as part of the curriculum for the Full Stack Web Development Program at [Career Foundry](https://careerfoundry.com/en/courses/become-a-web-developer/). 
+
+## Project Requirements
++ Display data in Bootstrap list-group with btn class
++ Page must use Bootstrap navbar
+
+## Extra
+I also created version using Bootstrap Card class to display the data
 
 ## Skills Demonstrated
-+ Create basic UI pattern using Javascript
-+ Create Modal using HTML, CSS, and Javascript
++ Create basic UI pattern using Javascript and Bootstrap 5
++ Create Modal using Bootstrap 5 Library
 
 ## Projective Objective
 The objective of the project, as stated in Project Brief provided by Career Foundry, was: 
@@ -13,5 +20,5 @@ The objective of the project, as stated in Project Brief provided by Career Foun
 
 ## Project Dependencies 
 + JavaScript ES2023
-+ [Polyfill.io](https://polyfill.io/) Polyfill Library Version: 3.111.0 https://polyfill.io/v3/polyfill.min.js 
++ Bootstrap 5
 + API: [Pokemon API](https://pokeapi.co/) https://pokeapi.co/api/v2/pokemon/ 
